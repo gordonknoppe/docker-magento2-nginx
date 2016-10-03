@@ -1,4 +1,4 @@
-FROM nginx:1.9
+FROM nginx:1.10.1
 MAINTAINER Gordon Knoppe <gknoppe@magento.com>
 
 COPY ./default.conf /etc/nginx/conf.d/
